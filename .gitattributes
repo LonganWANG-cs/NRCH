@@ -1,0 +1,2 @@
+checkpoint/best_model.pth filter=lfs diff=lfs merge=lfs -text
+data/mirflickr25k-iall-vgg.mat filter=lfs diff=lfs merge=lfs -text
