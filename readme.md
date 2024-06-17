@@ -1,6 +1,7 @@
-Before running the main script, you need to generate the `.h5` file. To do this, run `tools.py`:
+Before running the main script, you need to generate the `.h5` file and the noise. To do this, run `tools.py`:
 ```bash
 python ./utils/tools.py
+python ./noise/generate.py
 ```
 
 Once the `.h5` file is generated, you can run the main script `NRCH.py` to play with the model:
