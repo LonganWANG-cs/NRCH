@@ -134,7 +134,6 @@ def get_loss(net, txt_net, config, data_loader, Threshold, epoch,W):
         u = net(image)
         v = txt_net(tag) 
         with torch.no_grad():
-            #  add by qy
             label_ = (label - 0.5) * 2  #   [-1,1]
             u_sims = u @ W.tanh().t()   # N X C  [-1, 1]
             v_sims = v @ W.tanh().t()   # N X C  [-1, 1]
