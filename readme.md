@@ -17,6 +17,6 @@ python NRCH.py
 ```
 We have already provided the trained model under 50% noise in 64-bit on MIRFlickr-25K dataset.
 
-### Experiment Results:
+## Experiment Results:
 <img src="./img/result1.jpg" />
 <img src="./img/result2.jpg" />
