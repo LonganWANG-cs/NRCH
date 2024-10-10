@@ -15,7 +15,7 @@ Once the `.h5` file and noise are generated, you can run the main script `NRCH.p
 ```bash
 python NRCH.py
 ```
-We have already provided the trained model under 50% noise in 64-bit on MIRFlickr-25K dataset.
+We have already provided the trained model under 50% noise in 64-bit on MIRFlickr-25K dataset. You can download the model and a toy dataset form [https://drive.google.com/drive/folders/1Zk1dZIAUlUKcKscPPhgm6hJvSFz6QkjF?usp=drive_link](here). 
 
 ## Experiment Results:
 <img src="./img/result3.jpg" />
